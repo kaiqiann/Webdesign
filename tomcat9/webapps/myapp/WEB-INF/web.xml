@@ -1,0 +1,56 @@
+<web-app>
+	<servlet>
+		<servlet-name>servlet1</servlet-name>
+		<servlet-class>DisplayRequestHeader</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>servlet1</servlet-name>
+		<url-pattern>/display</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>servlet2</servlet-name>
+		<servlet-class>Part3</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>servlet2</servlet-name>
+		<url-pattern>/myapp/submitpart3</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>servlet3</servlet-name>
+		<servlet-class>Part4</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>servlet3</servlet-name>
+		<url-pattern>/myapp/submitpart4</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>servlet4</servlet-name>
+		<servlet-class>Part5</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>servlet4</servlet-name>
+		<url-pattern>/myapp/submitpart5</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>servlet5</servlet-name>
+		<servlet-class>Part6</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>servlet5</servlet-name>
+		<url-pattern>/myapp/part6</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>form.html</welcome-file>
+	</welcome-file-list>
+</web-app>
